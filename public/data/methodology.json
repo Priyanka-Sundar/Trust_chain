@@ -1,0 +1,102 @@
+{
+  "pipeline_stages": [
+    {
+      "stage": 1,
+      "name": "Ingest",
+      "description": "Stream Yelp JSON into SQLite via Kaggle download."
+    },
+    {
+      "stage": 2,
+      "name": "Sample",
+      "description": "Stratified sample of 20K reviews across star ratings."
+    },
+    {
+      "stage": 3,
+      "name": "Preprocess",
+      "description": "HTML unescape, URL strip, whitespace normalise, lowercase."
+    },
+    {
+      "stage": 4,
+      "name": "Embed",
+      "description": "Sentence-Transformer all-MiniLM-L6-v2 (384-dim)."
+    },
+    {
+      "stage": 5,
+      "name": "Graph",
+      "description": "Node2Vec on user-business graph (64-dim per node)."
+    },
+    {
+      "stage": 6,
+      "name": "Sentiment",
+      "description": "VADER compound + pos + neg + neu."
+    },
+    {
+      "stage": 7,
+      "name": "Label",
+      "description": "Pseudo-label from behavioural signals (suspect_score >= 4)."
+    },
+    {
+      "stage": 8,
+      "name": "Fuse",
+      "description": "Concatenate text + graph + sentiment + metadata (519-dim)."
+    },
+    {
+      "stage": 9,
+      "name": "Split",
+      "description": "Group-disjoint train / val / test by user_id (11992/4011/3997)."
+    },
+    {
+      "stage": 10,
+      "name": "Balance",
+      "description": "Compare None / scale_pos_weight / SMOTE (selected: None)."
+    },
+    {
+      "stage": 11,
+      "name": "Tune",
+      "description": "Optuna 12-trial TPE on XGBoost (val PR-AUC 0.7102)."
+    },
+    {
+      "stage": 12,
+      "name": "Train",
+      "description": "Feature-fusion XGBoost + GraphSAGE baseline (val 0.2842)."
+    },
+    {
+      "stage": 13,
+      "name": "Evaluate",
+      "description": "3-fold StratifiedGroupKFold + bootstrap CI + Wilcoxon (p=0.25)."
+    },
+    {
+      "stage": 14,
+      "name": "Explain",
+      "description": "SHAP TreeExplainer on 1500-review test sample."
+    },
+    {
+      "stage": 15,
+      "name": "Export",
+      "description": "JSON artefacts for the Trust Chain website."
+    }
+  ],
+  "limitations": [
+    "Pseudo-labels are heuristic, not ground truth - results are relative within the corpus.",
+    "The Wilcoxon test (p=0.25) was underpowered at three folds and could not confirm statistical significance.",
+    "Group-disjoint split prevents user leakage but cannot eliminate reviewer identity overlap across platforms.",
+    "GraphSAGE baseline reached only val PR-AUC 0.2842, indicating undertraining on this feature set.",
+    "SHAP explains the XGBoost model only, not the GraphSAGE baseline."
+  ],
+  "reproducibility": {
+    "seed": 42,
+    "data_source": "yelp-kaggle",
+    "python_version": "3.11.9",
+    "key_versions": {
+      "numpy": "1.26.4",
+      "pandas": "3.0.5",
+      "xgboost": "2.0.3",
+      "torch": "2.14.0+cpu",
+      "sklearn": "1.4.0",
+      "shap": "0.45.0",
+      "optuna": "3.6.0",
+      "networkx": "3.2.1",
+      "pyg_available": "True"
+    }
+  }
+}

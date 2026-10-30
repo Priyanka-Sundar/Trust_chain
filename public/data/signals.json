@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "name": "text_emb_0",
+      "group": "Semantic",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.058,
+      "description": "Sentence-Transformer embedding dim 0 (all-MiniLM-L6-v2)."
+    },
+    {
+      "name": "text_emb_1",
+      "group": "Semantic",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.041,
+      "description": "Sentence-Transformer embedding dim 1."
+    },
+    {
+      "name": "vader_compound",
+      "group": "Sentiment",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.092,
+      "description": "VADER normalised compound sentiment (-1 to +1)."
+    },
+    {
+      "name": "vader_neg",
+      "group": "Sentiment",
+      "dim": 1,
+      "firing_rate": 0.71,
+      "weight": 0.038,
+      "description": "VADER negative lexicon ratio."
+    },
+    {
+      "name": "vader_pos",
+      "group": "Sentiment",
+      "dim": 1,
+      "firing_rate": 0.68,
+      "weight": 0.036,
+      "description": "VADER positive lexicon ratio."
+    },
+    {
+      "name": "user_deg",
+      "group": "Graph degree",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.044,
+      "description": "User node degree in user-business graph."
+    },
+    {
+      "name": "biz_deg",
+      "group": "Graph degree",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.048,
+      "description": "Business node degree in user-business graph."
+    },
+    {
+      "name": "u_ge_0",
+      "group": "Graph",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.052,
+      "description": "Node2Vec user embedding dim 0."
+    },
+    {
+      "name": "b_ge_0",
+      "group": "Graph",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.061,
+      "description": "Node2Vec business embedding dim 0."
+    },
+    {
+      "name": "stars",
+      "group": "Metadata",
+      "dim": 1,
+      "firing_rate": 1.0,
+      "weight": 0.078,
+      "description": "Raw star rating (1-5)."
+    }
+  ],
+  "feature_groups": [
+    {
+      "group": "Text embeddings",
+      "dimensions": 384,
+      "description": "Sentence-Transformer all-MiniLM-L6-v2 dense vector."
+    },
+    {
+      "group": "User graph embeddings",
+      "dimensions": 64,
+      "description": "Node2Vec user node vector."
+    },
+    {
+      "group": "Business graph embeddings",
+      "dimensions": 64,
+      "description": "Node2Vec business node vector."
+    },
+    {
+      "group": "Sentiment",
+      "dimensions": 4,
+      "description": "VADER compound, pos, neg, neu."
+    },
+    {
+      "group": "Graph degree",
+      "dimensions": 2,
+      "description": "User and business node degrees."
+    },
+    {
+      "group": "Metadata",
+      "dimensions": 1,
+      "description": "Raw stars."
+    }
+  ],
+  "verdict_cascade": [
+    {
+      "order": 1,
+      "branch": "Suspicious review",
+      "rule": "pseudo_label == 1 (suspect_score >= 4)"
+    },
+    {
+      "order": 2,
+      "branch": "Routine complaint",
+      "rule": "pseudo_label == 0 (suspect_score < 4)"
+    }
+  ],
+  "priority_bands": [
+    {
+      "tier": "Routine",
+      "score_range": "0-3",
+      "description": "Low suspicion, ordinary review."
+    },
+    {
+      "tier": "Contextual",
+      "score_range": "4-5",
+      "description": "Mixed signals, examine in context."
+    },
+    {
+      "tier": "High priority",
+      "score_range": "6+",
+      "description": "Multiple suspicious signals, investigate first."
+    }
+  ],
+  "likelihood_bands": [
+    {
+      "band": "Weak",
+      "range": "proba < 0.3",
+      "description": "Background population."
+    },
+    {
+      "band": "Moderate",
+      "range": "0.3 <= proba < 0.6",
+      "description": "Ambiguous, manual review advised."
+    },
+    {
+      "band": "Strong",
+      "range": "proba >= 0.6",
+      "description": "Strong model evidence of suspicious review."
+    }
+  ],
+  "pseudo_label_validation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "sample_size": 81
+  }
+}

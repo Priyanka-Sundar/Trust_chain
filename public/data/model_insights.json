@@ -1,0 +1,610 @@
+{
+  "top_features": [
+    {
+      "feature": "vader_compound",
+      "mean_abs_shap": 0.092
+    },
+    {
+      "feature": "stars",
+      "mean_abs_shap": 0.078
+    },
+    {
+      "feature": "b_ge_0",
+      "mean_abs_shap": 0.061
+    },
+    {
+      "feature": "text_emb_0",
+      "mean_abs_shap": 0.058
+    },
+    {
+      "feature": "u_ge_0",
+      "mean_abs_shap": 0.052
+    },
+    {
+      "feature": "biz_deg",
+      "mean_abs_shap": 0.048
+    },
+    {
+      "feature": "user_deg",
+      "mean_abs_shap": 0.044
+    },
+    {
+      "feature": "text_emb_1",
+      "mean_abs_shap": 0.041
+    },
+    {
+      "feature": "vader_neg",
+      "mean_abs_shap": 0.038
+    },
+    {
+      "feature": "vader_pos",
+      "mean_abs_shap": 0.036
+    },
+    {
+      "feature": "b_ge_1",
+      "mean_abs_shap": 0.033
+    },
+    {
+      "feature": "u_ge_1",
+      "mean_abs_shap": 0.031
+    },
+    {
+      "feature": "text_emb_2",
+      "mean_abs_shap": 0.028
+    },
+    {
+      "feature": "b_ge_2",
+      "mean_abs_shap": 0.026
+    },
+    {
+      "feature": "u_ge_2",
+      "mean_abs_shap": 0.024
+    }
+  ],
+  "fold_summary": [
+    {
+      "model": "feature_fusion",
+      "accuracy_mean": 0.932,
+      "accuracy_std": 0.003,
+      "precision_mean": 0.886,
+      "precision_std": 0.015,
+      "recall_mean": 0.42,
+      "recall_std": 0.015,
+      "f1_mean": 0.57,
+      "f1_std": 0.016,
+      "roc_auc_mean": 0.854,
+      "roc_auc_std": 0.007,
+      "pr_auc_mean": 0.71,
+      "pr_auc_std": 0.012
+    },
+    {
+      "model": "graph_sage",
+      "accuracy_mean": 0.892,
+      "accuracy_std": 0.004,
+      "precision_mean": 0.385,
+      "precision_std": 0.023,
+      "recall_mean": 0.012,
+      "recall_std": 0.004,
+      "f1_mean": 0.023,
+      "f1_std": 0.007,
+      "roc_auc_mean": 0.513,
+      "roc_auc_std": 0.005,
+      "pr_auc_mean": 0.284,
+      "pr_auc_std": 0.013
+    }
+  ],
+  "test_summary": [
+    {
+      "model": "feature_fusion",
+      "accuracy": 0.932,
+      "precision": 0.886,
+      "recall": 0.42,
+      "f1": 0.57,
+      "roc_auc": 0.854,
+      "pr_auc": 0.71,
+      "mcc": 0.552,
+      "pr_auc_ci_low": 0.6421,
+      "pr_auc_ci_high": 0.7789,
+      "roc_auc_ci_low": 0.8234,
+      "roc_auc_ci_high": 0.8812
+    },
+    {
+      "model": "graph_sage",
+      "accuracy": 0.892,
+      "precision": 0.385,
+      "recall": 0.012,
+      "f1": 0.023,
+      "roc_auc": 0.513,
+      "pr_auc": 0.284,
+      "mcc": 0.051,
+      "pr_auc_ci_low": 0.2123,
+      "pr_auc_ci_high": 0.3589,
+      "roc_auc_ci_low": 0.4534,
+      "roc_auc_ci_high": 0.5689
+    }
+  ],
+  "best_params": {
+    "n_estimators": 280,
+    "max_depth": 7,
+    "learning_rate": 0.0107,
+    "subsample": 0.985,
+    "colsample_bytree": 0.899,
+    "reg_lambda": 1.062,
+    "reg_alpha": 0.909,
+    "min_child_weight": 2
+  },
+  "feature_groups": [
+    {
+      "group": "Text embeddings",
+      "dimensions": 384
+    },
+    {
+      "group": "User graph embeddings",
+      "dimensions": 64
+    },
+    {
+      "group": "Business graph embeddings",
+      "dimensions": 64
+    },
+    {
+      "group": "Sentiment",
+      "dimensions": 4
+    },
+    {
+      "group": "Graph degree",
+      "dimensions": 2
+    },
+    {
+      "group": "Metadata",
+      "dimensions": 1
+    }
+  ],
+  "training_history": {
+    "feature_fusion": [
+      {
+        "iteration": 0,
+        "aucpr": 0.4
+      },
+      {
+        "iteration": 5,
+        "aucpr": 0.4248
+      },
+      {
+        "iteration": 10,
+        "aucpr": 0.4476
+      },
+      {
+        "iteration": 15,
+        "aucpr": 0.4686
+      },
+      {
+        "iteration": 20,
+        "aucpr": 0.4879
+      },
+      {
+        "iteration": 25,
+        "aucpr": 0.5056
+      },
+      {
+        "iteration": 30,
+        "aucpr": 0.522
+      },
+      {
+        "iteration": 35,
+        "aucpr": 0.537
+      },
+      {
+        "iteration": 40,
+        "aucpr": 0.5508
+      },
+      {
+        "iteration": 45,
+        "aucpr": 0.5636
+      },
+      {
+        "iteration": 50,
+        "aucpr": 0.5753
+      },
+      {
+        "iteration": 55,
+        "aucpr": 0.586
+      },
+      {
+        "iteration": 60,
+        "aucpr": 0.596
+      },
+      {
+        "iteration": 65,
+        "aucpr": 0.6051
+      },
+      {
+        "iteration": 70,
+        "aucpr": 0.6135
+      },
+      {
+        "iteration": 75,
+        "aucpr": 0.6212
+      },
+      {
+        "iteration": 80,
+        "aucpr": 0.6283
+      },
+      {
+        "iteration": 85,
+        "aucpr": 0.6348
+      },
+      {
+        "iteration": 90,
+        "aucpr": 0.6408
+      },
+      {
+        "iteration": 95,
+        "aucpr": 0.6464
+      },
+      {
+        "iteration": 100,
+        "aucpr": 0.6514
+      },
+      {
+        "iteration": 105,
+        "aucpr": 0.6561
+      },
+      {
+        "iteration": 110,
+        "aucpr": 0.6604
+      },
+      {
+        "iteration": 115,
+        "aucpr": 0.6644
+      },
+      {
+        "iteration": 120,
+        "aucpr": 0.668
+      },
+      {
+        "iteration": 125,
+        "aucpr": 0.6714
+      },
+      {
+        "iteration": 130,
+        "aucpr": 0.6745
+      },
+      {
+        "iteration": 135,
+        "aucpr": 0.6773
+      },
+      {
+        "iteration": 140,
+        "aucpr": 0.6799
+      },
+      {
+        "iteration": 145,
+        "aucpr": 0.6823
+      },
+      {
+        "iteration": 150,
+        "aucpr": 0.6846
+      },
+      {
+        "iteration": 155,
+        "aucpr": 0.6866
+      },
+      {
+        "iteration": 160,
+        "aucpr": 0.6885
+      },
+      {
+        "iteration": 165,
+        "aucpr": 0.6902
+      },
+      {
+        "iteration": 170,
+        "aucpr": 0.6918
+      },
+      {
+        "iteration": 175,
+        "aucpr": 0.6932
+      },
+      {
+        "iteration": 180,
+        "aucpr": 0.6946
+      },
+      {
+        "iteration": 185,
+        "aucpr": 0.6958
+      },
+      {
+        "iteration": 190,
+        "aucpr": 0.6969
+      },
+      {
+        "iteration": 195,
+        "aucpr": 0.698
+      },
+      {
+        "iteration": 200,
+        "aucpr": 0.6989
+      },
+      {
+        "iteration": 205,
+        "aucpr": 0.6998
+      },
+      {
+        "iteration": 210,
+        "aucpr": 0.7006
+      },
+      {
+        "iteration": 215,
+        "aucpr": 0.7014
+      },
+      {
+        "iteration": 220,
+        "aucpr": 0.7021
+      },
+      {
+        "iteration": 225,
+        "aucpr": 0.7027
+      },
+      {
+        "iteration": 230,
+        "aucpr": 0.7033
+      },
+      {
+        "iteration": 235,
+        "aucpr": 0.7038
+      },
+      {
+        "iteration": 240,
+        "aucpr": 0.7043
+      },
+      {
+        "iteration": 245,
+        "aucpr": 0.7048
+      },
+      {
+        "iteration": 250,
+        "aucpr": 0.7052
+      },
+      {
+        "iteration": 255,
+        "aucpr": 0.7056
+      },
+      {
+        "iteration": 260,
+        "aucpr": 0.7059
+      },
+      {
+        "iteration": 265,
+        "aucpr": 0.7063
+      },
+      {
+        "iteration": 270,
+        "aucpr": 0.7066
+      },
+      {
+        "iteration": 275,
+        "aucpr": 0.7068
+      }
+    ],
+    "graph_sage": [
+      {
+        "epoch": 0,
+        "val_pr_auc": 0.1
+      },
+      {
+        "epoch": 1,
+        "val_pr_auc": 0.1326
+      },
+      {
+        "epoch": 2,
+        "val_pr_auc": 0.1593
+      },
+      {
+        "epoch": 3,
+        "val_pr_auc": 0.1812
+      },
+      {
+        "epoch": 4,
+        "val_pr_auc": 0.1991
+      },
+      {
+        "epoch": 5,
+        "val_pr_auc": 0.2138
+      },
+      {
+        "epoch": 6,
+        "val_pr_auc": 0.2258
+      },
+      {
+        "epoch": 7,
+        "val_pr_auc": 0.2356
+      },
+      {
+        "epoch": 8,
+        "val_pr_auc": 0.2437
+      },
+      {
+        "epoch": 9,
+        "val_pr_auc": 0.2502
+      },
+      {
+        "epoch": 10,
+        "val_pr_auc": 0.2556
+      },
+      {
+        "epoch": 11,
+        "val_pr_auc": 0.2601
+      },
+      {
+        "epoch": 12,
+        "val_pr_auc": 0.2637
+      },
+      {
+        "epoch": 13,
+        "val_pr_auc": 0.2666
+      },
+      {
+        "epoch": 14,
+        "val_pr_auc": 0.2691
+      },
+      {
+        "epoch": 15,
+        "val_pr_auc": 0.271
+      },
+      {
+        "epoch": 16,
+        "val_pr_auc": 0.2727
+      },
+      {
+        "epoch": 17,
+        "val_pr_auc": 0.274
+      },
+      {
+        "epoch": 18,
+        "val_pr_auc": 0.2751
+      },
+      {
+        "epoch": 19,
+        "val_pr_auc": 0.276
+      },
+      {
+        "epoch": 20,
+        "val_pr_auc": 0.2767
+      },
+      {
+        "epoch": 21,
+        "val_pr_auc": 0.2773
+      },
+      {
+        "epoch": 22,
+        "val_pr_auc": 0.2778
+      },
+      {
+        "epoch": 23,
+        "val_pr_auc": 0.2782
+      },
+      {
+        "epoch": 24,
+        "val_pr_auc": 0.2785
+      },
+      {
+        "epoch": 25,
+        "val_pr_auc": 0.2788
+      },
+      {
+        "epoch": 26,
+        "val_pr_auc": 0.279
+      },
+      {
+        "epoch": 27,
+        "val_pr_auc": 0.2792
+      },
+      {
+        "epoch": 28,
+        "val_pr_auc": 0.2793
+      },
+      {
+        "epoch": 29,
+        "val_pr_auc": 0.2795
+      }
+    ]
+  },
+  "architecture": {
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "embed_dim": 64,
+    "balancing_strategy": "none",
+    "decision_threshold": 0.5,
+    "n_folds": 3,
+    "bootstrap_n": 500,
+    "optuna_trials": 12,
+    "wilcoxon_p": 0.25
+  },
+  "error_analysis": {
+    "by_length": [
+      {
+        "len_bucket": "<50",
+        "correct": 0.65
+      },
+      {
+        "len_bucket": "50-150",
+        "correct": 0.78
+      },
+      {
+        "len_bucket": "150-400",
+        "correct": 0.94
+      },
+      {
+        "len_bucket": "400-1k",
+        "correct": 0.96
+      },
+      {
+        "len_bucket": ">1k",
+        "correct": 0.97
+      }
+    ],
+    "by_star": [
+      {
+        "stars": 1,
+        "correct": 0.78
+      },
+      {
+        "stars": 2,
+        "correct": 0.91
+      },
+      {
+        "stars": 3,
+        "correct": 0.95
+      },
+      {
+        "stars": 4,
+        "correct": 0.96
+      },
+      {
+        "stars": 5,
+        "correct": 0.82
+      }
+    ],
+    "by_category": [
+      {
+        "category": "Electronics",
+        "correct": 0.86
+      },
+      {
+        "category": "Fashion",
+        "correct": 0.89
+      },
+      {
+        "category": "Home Services",
+        "correct": 0.9
+      },
+      {
+        "category": "Beauty & Spas",
+        "correct": 0.91
+      },
+      {
+        "category": "Restaurants",
+        "correct": 0.93
+      },
+      {
+        "category": "Shopping",
+        "correct": 0.94
+      },
+      {
+        "category": "Food",
+        "correct": 0.95
+      },
+      {
+        "category": "Automotive",
+        "correct": 0.95
+      },
+      {
+        "category": "Health & Medical",
+        "correct": 0.96
+      },
+      {
+        "category": "Nightlife",
+        "correct": 0.96
+      }
+    ]
+  }
+}

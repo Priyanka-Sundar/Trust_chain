@@ -1,0 +1,1206 @@
+{
+  "nodes": [
+    {
+      "id": "u_000000",
+      "type": "user",
+      "degree": 1,
+      "pseudo_rate": 0.329
+    },
+    {
+      "id": "u_000001",
+      "type": "user",
+      "degree": 5,
+      "pseudo_rate": 0.167
+    },
+    {
+      "id": "u_000002",
+      "type": "user",
+      "degree": 6,
+      "pseudo_rate": 0.377
+    },
+    {
+      "id": "u_000003",
+      "type": "user",
+      "degree": 1,
+      "pseudo_rate": 0.36
+    },
+    {
+      "id": "u_000004",
+      "type": "user",
+      "degree": 5,
+      "pseudo_rate": 0.352
+    },
+    {
+      "id": "u_000005",
+      "type": "user",
+      "degree": 24,
+      "pseudo_rate": 0.261
+    },
+    {
+      "id": "u_000006",
+      "type": "user",
+      "degree": 6,
+      "pseudo_rate": 0.211
+    },
+    {
+      "id": "u_000007",
+      "type": "user",
+      "degree": 3,
+      "pseudo_rate": 0.24
+    },
+    {
+      "id": "u_000008",
+      "type": "user",
+      "degree": 17,
+      "pseudo_rate": 0.21
+    },
+    {
+      "id": "u_000009",
+      "type": "user",
+      "degree": 2,
+      "pseudo_rate": 0.026
+    },
+    {
+      "id": "u_000010",
+      "type": "user",
+      "degree": 20,
+      "pseudo_rate": 0.34
+    },
+    {
+      "id": "u_000011",
+      "type": "user",
+      "degree": 9,
+      "pseudo_rate": 0.258
+    },
+    {
+      "id": "u_000012",
+      "type": "user",
+      "degree": 13,
+      "pseudo_rate": 0.038
+    },
+    {
+      "id": "u_000013",
+      "type": "user",
+      "degree": 4,
+      "pseudo_rate": 0.24
+    },
+    {
+      "id": "u_000014",
+      "type": "user",
+      "degree": 17,
+      "pseudo_rate": 0.09
+    },
+    {
+      "id": "u_000015",
+      "type": "user",
+      "degree": 12,
+      "pseudo_rate": 0.343
+    },
+    {
+      "id": "u_000016",
+      "type": "user",
+      "degree": 22,
+      "pseudo_rate": 0.176
+    },
+    {
+      "id": "u_000017",
+      "type": "user",
+      "degree": 13,
+      "pseudo_rate": 0.121
+    },
+    {
+      "id": "u_000018",
+      "type": "user",
+      "degree": 6,
+      "pseudo_rate": 0.294
+    },
+    {
+      "id": "u_000019",
+      "type": "user",
+      "degree": 16,
+      "pseudo_rate": 0.006
+    },
+    {
+      "id": "u_000020",
+      "type": "user",
+      "degree": 11,
+      "pseudo_rate": 0.198
+    },
+    {
+      "id": "u_000021",
+      "type": "user",
+      "degree": 7,
+      "pseudo_rate": 0.247
+    },
+    {
+      "id": "u_000022",
+      "type": "user",
+      "degree": 13,
+      "pseudo_rate": 0.271
+    },
+    {
+      "id": "u_000023",
+      "type": "user",
+      "degree": 2,
+      "pseudo_rate": 0.307
+    },
+    {
+      "id": "u_000024",
+      "type": "user",
+      "degree": 16,
+      "pseudo_rate": 0.109
+    },
+    {
+      "id": "u_000025",
+      "type": "user",
+      "degree": 20,
+      "pseudo_rate": 0.18
+    },
+    {
+      "id": "u_000026",
+      "type": "user",
+      "degree": 9,
+      "pseudo_rate": 0.325
+    },
+    {
+      "id": "u_000027",
+      "type": "user",
+      "degree": 10,
+      "pseudo_rate": 0.083
+    },
+    {
+      "id": "u_000028",
+      "type": "user",
+      "degree": 10,
+      "pseudo_rate": 0.324
+    },
+    {
+      "id": "u_000029",
+      "type": "user",
+      "degree": 3,
+      "pseudo_rate": 0.034
+    },
+    {
+      "id": "u_000030",
+      "type": "user",
+      "degree": 15,
+      "pseudo_rate": 0.077
+    },
+    {
+      "id": "u_000031",
+      "type": "user",
+      "degree": 16,
+      "pseudo_rate": 0.15
+    },
+    {
+      "id": "u_000032",
+      "type": "user",
+      "degree": 18,
+      "pseudo_rate": 0.211
+    },
+    {
+      "id": "u_000033",
+      "type": "user",
+      "degree": 1,
+      "pseudo_rate": 0.117
+    },
+    {
+      "id": "u_000034",
+      "type": "user",
+      "degree": 15,
+      "pseudo_rate": 0.234
+    },
+    {
+      "id": "u_000035",
+      "type": "user",
+      "degree": 22,
+      "pseudo_rate": 0.214
+    },
+    {
+      "id": "u_000036",
+      "type": "user",
+      "degree": 9,
+      "pseudo_rate": 0.033
+    },
+    {
+      "id": "u_000037",
+      "type": "user",
+      "degree": 5,
+      "pseudo_rate": 0.344
+    },
+    {
+      "id": "u_000038",
+      "type": "user",
+      "degree": 12,
+      "pseudo_rate": 0.263
+    },
+    {
+      "id": "u_000039",
+      "type": "user",
+      "degree": 9,
+      "pseudo_rate": 0.183
+    },
+    {
+      "id": "b_000000",
+      "type": "business",
+      "degree": 13,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000001",
+      "type": "business",
+      "degree": 51,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000002",
+      "type": "business",
+      "degree": 26,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000003",
+      "type": "business",
+      "degree": 57,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000004",
+      "type": "business",
+      "degree": 13,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000005",
+      "type": "business",
+      "degree": 16,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000006",
+      "type": "business",
+      "degree": 54,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000007",
+      "type": "business",
+      "degree": 12,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000008",
+      "type": "business",
+      "degree": 49,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000009",
+      "type": "business",
+      "degree": 51,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000010",
+      "type": "business",
+      "degree": 12,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000011",
+      "type": "business",
+      "degree": 28,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000012",
+      "type": "business",
+      "degree": 8,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000013",
+      "type": "business",
+      "degree": 19,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000014",
+      "type": "business",
+      "degree": 47,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000015",
+      "type": "business",
+      "degree": 11,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000016",
+      "type": "business",
+      "degree": 55,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000017",
+      "type": "business",
+      "degree": 35,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000018",
+      "type": "business",
+      "degree": 23,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000019",
+      "type": "business",
+      "degree": 37,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000020",
+      "type": "business",
+      "degree": 28,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000021",
+      "type": "business",
+      "degree": 41,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000022",
+      "type": "business",
+      "degree": 54,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000023",
+      "type": "business",
+      "degree": 25,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000024",
+      "type": "business",
+      "degree": 55,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000025",
+      "type": "business",
+      "degree": 19,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000026",
+      "type": "business",
+      "degree": 7,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000027",
+      "type": "business",
+      "degree": 32,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000028",
+      "type": "business",
+      "degree": 41,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000029",
+      "type": "business",
+      "degree": 24,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000030",
+      "type": "business",
+      "degree": 51,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000031",
+      "type": "business",
+      "degree": 16,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000032",
+      "type": "business",
+      "degree": 36,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000033",
+      "type": "business",
+      "degree": 59,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000034",
+      "type": "business",
+      "degree": 30,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000035",
+      "type": "business",
+      "degree": 8,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000036",
+      "type": "business",
+      "degree": 15,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000037",
+      "type": "business",
+      "degree": 39,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000038",
+      "type": "business",
+      "degree": 37,
+      "pseudo_rate": 0.0
+    },
+    {
+      "id": "b_000039",
+      "type": "business",
+      "degree": 47,
+      "pseudo_rate": 0.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "u_000039",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000009",
+      "target": "b_000008",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000008",
+      "target": "b_000011",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000027",
+      "target": "b_000035",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000001",
+      "target": "b_000039",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000001",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000032",
+      "target": "b_000003",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000001",
+      "target": "b_000002",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000012",
+      "target": "b_000005",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000029",
+      "target": "b_000011",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000001",
+      "target": "b_000034",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000003",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000028",
+      "target": "b_000003",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000015",
+      "target": "b_000004",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000019",
+      "target": "b_000016",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000006",
+      "target": "b_000018",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000031",
+      "target": "b_000025",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000029",
+      "target": "b_000037",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000011",
+      "target": "b_000017",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000032",
+      "target": "b_000032",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000004",
+      "target": "b_000024",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000034",
+      "target": "b_000010",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000032",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000031",
+      "target": "b_000005",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000005",
+      "target": "b_000007",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000016",
+      "target": "b_000021",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000007",
+      "target": "b_000038",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000022",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000000",
+      "target": "b_000028",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000036",
+      "target": "b_000006",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000010",
+      "target": "b_000009",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000004",
+      "target": "b_000008",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000029",
+      "target": "b_000034",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000020",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000020",
+      "target": "b_000027",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000012",
+      "target": "b_000019",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000017",
+      "target": "b_000020",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000020",
+      "target": "b_000003",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000019",
+      "target": "b_000020",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000014",
+      "target": "b_000008",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000037",
+      "target": "b_000004",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000022",
+      "target": "b_000033",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000026",
+      "target": "b_000000",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000024",
+      "target": "b_000012",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000012",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000012",
+      "target": "b_000038",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000028",
+      "target": "b_000016",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000014",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000027",
+      "target": "b_000023",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000005",
+      "target": "b_000009",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000014",
+      "target": "b_000009",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000036",
+      "target": "b_000009",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000035",
+      "target": "b_000007",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000001",
+      "target": "b_000031",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000030",
+      "target": "b_000038",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000023",
+      "target": "b_000034",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000002",
+      "target": "b_000025",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000003",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000016",
+      "target": "b_000008",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000004",
+      "target": "b_000029",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000027",
+      "target": "b_000032",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000001",
+      "target": "b_000019",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000017",
+      "target": "b_000002",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000016",
+      "target": "b_000014",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000038",
+      "target": "b_000039",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000035",
+      "target": "b_000010",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000023",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000018",
+      "target": "b_000033",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000006",
+      "target": "b_000001",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000028",
+      "target": "b_000000",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000018",
+      "target": "b_000028",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000031",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000014",
+      "target": "b_000022",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000035",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000019",
+      "target": "b_000037",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000020",
+      "target": "b_000015",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000038",
+      "target": "b_000029",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000022",
+      "target": "b_000032",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000012",
+      "target": "b_000017",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000036",
+      "target": "b_000029",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000022",
+      "target": "b_000015",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000018",
+      "target": "b_000032",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000016",
+      "target": "b_000009",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000030",
+      "target": "b_000002",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000034",
+      "target": "b_000032",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000039",
+      "target": "b_000034",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000025",
+      "target": "b_000023",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000020",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000018",
+      "target": "b_000002",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000010",
+      "target": "b_000038",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000018",
+      "target": "b_000005",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000022",
+      "target": "b_000020",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000024",
+      "target": "b_000013",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000030",
+      "target": "b_000019",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000032",
+      "target": "b_000013",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000003",
+      "target": "b_000011",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000018",
+      "target": "b_000039",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000016",
+      "target": "b_000013",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000021",
+      "target": "b_000024",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000008",
+      "target": "b_000019",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000014",
+      "target": "b_000035",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000003",
+      "target": "b_000007",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000032",
+      "target": "b_000030",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000036",
+      "target": "b_000007",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000011",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000012",
+      "target": "b_000004",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000024",
+      "target": "b_000008",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000010",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 3.0
+    },
+    {
+      "source": "u_000028",
+      "target": "b_000028",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000038",
+      "target": "b_000034",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000039",
+      "target": "b_000024",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000027",
+      "target": "b_000018",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000031",
+      "target": "b_000015",
+      "weight": 1,
+      "stars": 1.0
+    },
+    {
+      "source": "u_000013",
+      "target": "b_000036",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000037",
+      "target": "b_000003",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000008",
+      "target": "b_000009",
+      "weight": 1,
+      "stars": 4.0
+    },
+    {
+      "source": "u_000029",
+      "target": "b_000004",
+      "weight": 1,
+      "stars": 2.0
+    },
+    {
+      "source": "u_000030",
+      "target": "b_000001",
+      "weight": 1,
+      "stars": 5.0
+    },
+    {
+      "source": "u_000002",
+      "target": "b_000000",
+      "weight": 1,
+      "stars": 3.0
+    }
+  ]
+}

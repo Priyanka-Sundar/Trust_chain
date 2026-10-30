@@ -1,0 +1,46 @@
+{
+  "text_preprocessing": "html unescape, url strip, whitespace normalise, lowercase",
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_dim": 384,
+  "sentiment_features": [
+    "vader_compound",
+    "vader_pos",
+    "vader_neg",
+    "vader_neu"
+  ],
+  "graph_features": {
+    "user_dim": 64,
+    "business_dim": 64,
+    "walk_length": 20,
+    "num_walks": 10
+  },
+  "decision_threshold": 0.5,
+  "best_balancing_strategy": "none",
+  "best_params": {
+    "n_estimators": 280,
+    "max_depth": 7,
+    "learning_rate": 0.0107,
+    "subsample": 0.985,
+    "colsample_bytree": 0.899,
+    "reg_lambda": 1.062,
+    "reg_alpha": 0.909,
+    "min_child_weight": 2
+  },
+  "sample_reviews_for_demo": [
+    {
+      "text": "BEST PRODUCT EVER!!! Absolutely amazing!!! Must buy!!! Five stars!!!",
+      "stars": 5.0,
+      "pseudo_label": 1
+    },
+    {
+      "text": "SCAM SCAM SCAM. Fraud seller. Do not trust. Horrible experience.",
+      "stars": 1.0,
+      "pseudo_label": 1
+    },
+    {
+      "text": "Great service and friendly staff, would visit again.",
+      "stars": 4.0,
+      "pseudo_label": 0
+    }
+  ]
+}
